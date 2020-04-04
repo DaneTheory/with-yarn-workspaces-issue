@@ -10,6 +10,10 @@
   "scripts": {
     "dev": "yarn workspace web-app run dev",
     "build": "yarn workspace web-app run build",
-    "start": "yarn workspace web-app run start"
+    "start": "yarn workspace web-app run start",
+    "now": "yarn workspace web-app run now"
+  },
+  "devDependencies": {
+    "now": "^17.1.1"
   }
 }

@@ -1613,6 +1613,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:1.9.1"
       ],
       [
+        "now",
+        "npm:17.1.1"
+      ],
+      [
         "npm-bundled",
         "npm:1.1.1"
       ],
@@ -2376,6 +2380,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["now", "npm:17.1.1"]
           ],
           "linkType": "SOFT",
         }]
@@ -7443,6 +7448,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["now", [
+        ["npm:17.1.1", {
+          "packageLocation": "./.yarn/unplugged/now-npm-17.1.1-7fd4bbf20e/node_modules/now/",
+          "packageDependencies": [
+            ["now", "npm:17.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["npm-bundled", [
         ["npm:1.1.1", {
           "packageLocation": "./.yarn/cache/npm-bundled-npm-1.1.1-4e8c147002-2.zip/node_modules/npm-bundled/",
@@ -8455,7 +8469,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:.", {
           "packageLocation": "./",
           "packageDependencies": [
-            ["root-workspace-0b6124", "workspace:."]
+            ["root-workspace-0b6124", "workspace:."],
+            ["now", "npm:17.1.1"]
           ],
           "linkType": "SOFT",
         }]

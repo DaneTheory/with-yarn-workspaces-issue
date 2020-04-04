@@ -4471,6 +4471,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"now@npm:^17.1.1":
+  version: 17.1.1
+  resolution: "now@npm:17.1.1"
+  bin:
+    now: ./dist/index.js
+  checksum: 2/5cbe579be5801b3bf765ec32c4981da5dffb4bbc018c57f52349b3c7c951978fdc6843d02a68e0a779a023830b8ffee928312fe074f3fa5e1d088066d8c586da
+  languageName: node
+  linkType: hard
+
 "npm-bundled@npm:^1.0.1":
   version: 1.1.1
   resolution: "npm-bundled@npm:1.1.1"
@@ -5362,6 +5371,8 @@ fsevents@~2.1.2:
 "root-workspace-0b6124@workspace:.":
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
+  dependencies:
+    now: ^17.1.1
   languageName: unknown
   linkType: soft
 
