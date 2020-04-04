@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport foo from 'foo';\nimport Bar from 'bar';\nexport default (() => __jsx(\"div\", null, \"Imported modules from another workspace:\", __jsx(\"pre\", null, foo), __jsx(Bar, null)));","map":null,"metadata":{},"sourceType":"module"}
